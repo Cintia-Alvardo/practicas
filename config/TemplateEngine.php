@@ -27,7 +27,7 @@ class TemplateEngine {
 
         $content = $this->parseDirectives($content);
 
-        eval('?>' . $content);
+        eval('?>' . $content); 
     }
 
     protected function parseDirectives($content) {
